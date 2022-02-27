@@ -43,3 +43,5 @@ ui-sys = { path = "../ui-sys", version = "0.2.1" }
 regex = "1"
 lazy_static = "1"
 
+[target.'cfg(target_os = "macos")'.dependencies]
+objc = "0.2.7"
