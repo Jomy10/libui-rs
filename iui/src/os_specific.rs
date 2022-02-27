@@ -1,7 +1,7 @@
 //! OS Specific functions
 
 #[cfg(target_os = "macos")]
-mod macos {
+pub mod macos {
     use crate::controls::Window;
     use crate::UI;
     
