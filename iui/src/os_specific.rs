@@ -1,7 +1,7 @@
 //! OS Specific functions
 
-use iui::controls::window::Window;
-use iui::UI;
+use crate::controls::window::Window;
+use crate::UI;
 
 
 #[cfg(target_os = "macos")]
