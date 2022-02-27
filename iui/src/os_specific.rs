@@ -1,6 +1,6 @@
 //! OS Specific functions
 
-use iui::controls::Window;
+use iui::controls::window::Window;
 use iui::UI;
 
 
