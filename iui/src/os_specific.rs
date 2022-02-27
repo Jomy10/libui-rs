@@ -1,6 +1,6 @@
 //! OS Specific functions
 
-use crate::controls::window::Window;
+use crate::controls::Window;
 use crate::UI;
 
 
