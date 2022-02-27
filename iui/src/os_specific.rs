@@ -1,5 +1,9 @@
 //! OS Specific functions
 
+use iui::controls::Window;
+use iui::UI;
+
+
 #[cfg(target_os = "macos")]
 use objc::{sel, sel_impl};
 
